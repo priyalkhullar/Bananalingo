@@ -7,8 +7,7 @@ Wonder no more. **Minionese** is a fun little translation engine that turns
 your English into gloriously silly Minion-speak — complete with a
 goggles-and-overalls themed web app and a CLI for the terminal purists.
 
-> 🚨 Disclaimer: this is a fan-made side project for fun, not affiliated
-> with or endorsed by Illumination/Universal. No bananas were harmed.
+> 🚨 Disclaimer: this is a fan-made side project for fun.
 
 ---
 
@@ -43,12 +42,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Four tabs to play with:
-- 🍌 **Translate** — English → Minionese, with confetti on send
-- 🔄 **Reverse** — decode Minionese back to English
-- 📖 **Word Bank** — browse & search all the words
-- ℹ️ **About** — the nerdy details, for the curious
-
 ---
 
 ## 🔵 Or Live in the Terminal
@@ -72,16 +65,7 @@ Interactive mode commands: `:reverse <text>`, `:wordbank`, `:quit`.
 
 ---
 
-## 🧠 How the magic works
 
-1. **Phrase matching** — multi-word gems like *"thank you"* and
-   *"good morning"* get caught first.
-2. **Dictionary lookup** — 150+ hand-picked English → Minionese words.
-3. **Phonetic fallback** — anything else gets sound-swapped and
-   suffix-ified deterministically, so it's consistent, not random chaos.
-4. Capitalization and punctuation ride along for the whole trip.
-
----
 
 ## 📁 What's in here
 
